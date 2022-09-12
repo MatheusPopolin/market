@@ -62,7 +62,7 @@ nav img {
   max-width: 100%;
 }
 
-.product .product-main {
+.product .product-div {
   display: flex;
   flex-direction: column;
   gap: 16px;
