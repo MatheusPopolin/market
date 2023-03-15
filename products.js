@@ -10,21 +10,21 @@ const products = [
     title: "Banana",
     price: 5.69,
     category: "Frutas",
-    image: "/img/products/product_2.svg",
+    image: "./img/products/product_2.svg",
     imageDescription: "",
   },
   {
     title: "Mamão",
     price: 4.99,
     category: "Frutas",
-    image: "/img/products/product_3.svg",
+    image: "./img/products/product_3.svg",
     imageDescription: "",
   },
   {
     title: "Maçã",
     price: 9.20,
     category: "Frutas",
-    image: "/img/products/product_4.svg",
+    image: "./img/products/product_4.svg",
     imageDescription: "",
   },
   {
@@ -38,7 +38,7 @@ const products = [
     title: "Vinho",
     price: 8.99,
     category: "Bebidas",
-    image: "/img/products/product_6.svg",
+    image: "./img/products/product_6.svg",
     imageDescription: "",
   },
   {
@@ -52,7 +52,7 @@ const products = [
     title: "Água de coco",
     price: 8.99,
     category: "Bebidas",
-    image: "/img/products/product_8.svg",
+    image: "./img/products/product_8.svg",
     imageDescription: "",
   },
 
@@ -60,7 +60,7 @@ const products = [
     title: "Sabonete",
     price: 8.99,
     category: "Higiene",
-    image: "/img/products/product_9.svg",
+    image: "./img/products/product_9.svg",
     imageDescription: "",
   },
 
@@ -68,7 +68,7 @@ const products = [
     title: "Detergente",
     price: 8.99,
     category: "Higiene",
-    image: "/img/products/product_10.svg",
+    image: "./img/products/product_10.svg",
     imageDescription: "",
   },
 
@@ -76,7 +76,7 @@ const products = [
     title: "Limpa superfícies",
     price: 8.99,
     category: "Higiene",
-    image: "/img/products/product_11.svg",
+    image: "./img/products/product_11.svg",
     imageDescription: "",
   },
 
@@ -121,7 +121,7 @@ function listaItens(lista){
     let tagLi = document.createElement("li");
     tagLi.classList.add("product");
     tagLi.innerHTML = 
-      `<img src="/img/products/no-img.svg"
+      `<img src="./img/products/no-img.svg"
         alt="Imagem de ${lista[i].title}"
         class="product-img"
       />
