@@ -121,7 +121,7 @@ function listaItens(lista){
     let tagLi = document.createElement("li");
     tagLi.classList.add("product");
     tagLi.innerHTML = 
-      `<img src="./img/products/no-img.svg"
+      `<img  src="./img/products/no-img.svg"
         alt="Imagem de ${lista[i].title}"
         class="product-img"
       />
